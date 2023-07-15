@@ -19,8 +19,8 @@
 
 
     <TextView
-        app:layout_constraintBottom_toBottomOf="@id/etUpdateName"
-        app:layout_constraintTop_toTopOf="@id/etUpdateName"
+        app:layout_constraintBottom_toBottomOf="@id/editTextUpdateName"
+        app:layout_constraintTop_toTopOf="@id/editTextUpdateName"
         app:layout_constraintStart_toStartOf="parent"
         android:id="@+id/tvNameLabel"
         android:layout_width="0dp"
@@ -33,7 +33,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvTitle"
         app:layout_constraintStart_toEndOf="@id/tvNameLabel"
-        android:id="@+id/etUpdateName"
+        android:id="@+id/editTextUpdateName"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:hint="Enter Name" />
@@ -42,8 +42,8 @@
 
     <TextView
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toBottomOf="@id/etUpdateEmailId"
-        app:layout_constraintTop_toTopOf="@id/etUpdateEmailId"
+        app:layout_constraintBottom_toBottomOf="@id/editTextUpdateEmail"
+        app:layout_constraintTop_toTopOf="@id/editTextUpdateEmail"
         android:id="@+id/tvEmailLabel"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -52,9 +52,9 @@
 
     <EditText
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/etUpdateName"
+        app:layout_constraintTop_toBottomOf="@id/editTextUpdateName"
         app:layout_constraintStart_toEndOf="@id/tvEmailLabel"
-        android:id="@+id/etUpdateEmailId"
+        android:id="@+id/editTextUpdateEmail"
         android:layout_width="0dp"
         android:layout_marginStart="8dp"
         android:layout_height="wrap_content"
@@ -64,9 +64,9 @@
 
 
     <TextView
-        app:layout_constraintTop_toBottomOf="@id/etUpdateEmailId"
-        app:layout_constraintEnd_toStartOf="@id/tvCancel"
-        android:id="@+id/tvUpdate"
+        app:layout_constraintTop_toBottomOf="@id/editTextUpdateEmail"
+        app:layout_constraintEnd_toStartOf="@id/textViewCancel"
+        android:id="@+id/textViewUpdate"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:foreground="?attr/selectableItemBackground"
@@ -77,9 +77,9 @@
         android:textStyle="bold" />
 
     <TextView
-        app:layout_constraintTop_toBottomOf="@id/etUpdateEmailId"
+        app:layout_constraintTop_toBottomOf="@id/editTextUpdateEmail"
         app:layout_constraintEnd_toEndOf="parent"
-        android:id="@+id/tvCancel"
+        android:id="@+id/textViewCancel"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:foreground="?attr/selectableItemBackground"
